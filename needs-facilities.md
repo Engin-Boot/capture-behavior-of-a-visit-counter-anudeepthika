@@ -7,7 +7,7 @@ Scenario: Report visitor trends during a week of operation
   When there is a new visitor in that particular day
   
   Then update the count 
-  And report the visitor count trend to facilities manager during a week of operation 
+  And report the visitor count trend to the manager during a week of operation 
 
 Scenario: Alert when seating capacity is full
 
