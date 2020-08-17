@@ -10,8 +10,8 @@ that runs the visit-counter
   Then recover the data to avoid data loss
 
 Scenario: Reconcile counts if the sensor is offline for a while
-
-  Given updating the count is possible in the server that runs the visit-counter 
+  
+  Given updating the count is possible in the server
   When sensor is offline
   
   When the sensor is offline and there are new visitors
