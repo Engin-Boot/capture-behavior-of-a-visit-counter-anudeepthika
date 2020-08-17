@@ -11,7 +11,7 @@ Scenario: Report visitor trends during a week of operation
   
 Scenario: Alert when seating capacity is full
 
-  Given there is current seating availablity and maximum seating number
+  Given there is current seating availability and maximum seating number
   
   When there is someone waiting without a seat
   Or there is minimum seating availability
