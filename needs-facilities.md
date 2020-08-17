@@ -2,7 +2,7 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given the sensor is working and store the count everyday in a week
+  Given the sensor is working and restart the count everyday in a week
   
   When there is a new visitor in that particular day
   
