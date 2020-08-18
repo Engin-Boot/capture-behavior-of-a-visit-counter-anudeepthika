@@ -16,4 +16,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
   
   When there are parking slots available
   
-  Then update the number and report to the director
+  Then update the count and report to the director
